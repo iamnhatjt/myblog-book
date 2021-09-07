@@ -1,0 +1,40 @@
+.image-book{
+    
+    transition: all 0.3s;
+
+}
+.img{
+    overflow: hidden;
+    width: 245px;
+    height: 382px;
+    object-fit: cover;
+    border-radius: 12px;
+}
+
+.train{
+    padding: 0px;
+}
+
+
+.title{
+    font-size: 34px;
+}
+
+.author{
+    margin-bottom: 24px;
+}
+
+.category{
+    margin: 12px 0;
+}
+
+.description{
+    line-height: 27px;
+}
+
+.trending{
+    border-bottom: 1px solid #353535;
+    font-size: 20px;
+    margin: 12px;
+    text-shadow: 2px 1px rgb(231, 214, 58) ;
+}

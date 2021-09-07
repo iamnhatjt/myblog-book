@@ -1,0 +1,157 @@
+.header{
+  height: 59px;
+  align-items: center;
+  padding: 0px 25px;
+  display: flex;
+  flex-direction: row;
+  border-bottom: 1px solid #353533;
+}
+
+.menu-one i:hover{
+  color: aqua;
+  transition: 1s;
+}
+
+.menu-one{
+  line-height: 59px;
+  width: 220px;
+}
+
+.menu-one_logo{
+  font-size: 17px;
+  font-weight: 500;
+  position: relative;
+}
+
+.menu-two{
+  display: inline;
+}
+
+
+
+.menu-two_input{
+  height: 40px;
+  border: none;
+  outline: none;
+  border-radius: 12px;
+  color: #fefefe;
+  background-color: #353533;
+}
+
+.main-body{
+  margin-top: 60px;
+}
+
+.navbar-setting{
+  margin-right: -5px;
+}
+
+.doarboad{
+  margin: 0;
+  padding: 0;
+  width: 240px;
+  position: absolute;
+  background-color: #212529;
+  top: 59px;
+  bottom: 0%;
+  position: fixed;
+  transition: all 0.5s ease-in-out;
+  border-right: 1px solid #353533;
+}
+
+
+.list-item{
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  line-height: 60px;
+}
+
+.item:hover {
+  background-color: #353533;
+  border-radius: 12px;
+}
+
+
+
+
+.list-item .item a{
+  text-decoration: none;
+}
+
+.list-item .item a i{
+  color:#ffff;
+  padding-left: 25px;
+  font-size: 17px;
+  width: 23px;
+}
+
+.list-item .item a .item-name{
+  color: #fefefe;
+  padding-left: 62px;
+}
+
+.profile {
+  position: absolute;
+  bottom: 0;
+  display: flex;
+  flex-direction: row;
+}
+
+.proflie-img img{
+  width: 45px;
+  height: 45px;
+  object-fit: cover;
+  border-radius: 12px;
+}
+
+.profile-text .name{
+  font-size: 15px;
+  margin-left: 12px;
+}
+
+.profile-text .job{
+  font-size: 14px;
+  margin-left: 12px;
+}
+
+.doarboad.active {
+  transition: all 0.5s ease-in-out;
+  width: 70px;
+}
+
+.doarboad.active .item-name{
+  transition: all 0.1s ease-in-out;
+
+  display: none;
+}
+
+.doarboad.active .proflie-img{
+  margin-left: 10px;
+}
+
+.doarboad.active .profile-text{
+  display: none;
+}
+
+
+.root{
+  margin-top: -1px;
+  margin-left: 240px;
+  transition: all 0.5s ease-in-out;
+  padding: 0 16px;
+  background-color:#212529;
+  color:#ffff
+}
+
+.root.active{
+  transition: all 0.5s ease-in-out;
+  margin-left: 69px;
+
+}
+
+
+/* hover total */
+.cursor-hover{
+  cursor: pointer;
+}
